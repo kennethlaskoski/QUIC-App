@@ -34,7 +34,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		9F8B5AE4292E576E0032273B /* QUIC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QUIC.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9F8B5AE4292E576E0032273B /* QUIC App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "QUIC App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9F8B5AE7292E576E0032273B /* QUICApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QUICApp.swift; sourceTree = "<group>"; };
 		9F8B5AE9292E576E0032273B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		9F8B5AEB292E576F0032273B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -85,7 +85,7 @@
 		9F8B5AE5292E576E0032273B /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				9F8B5AE4292E576E0032273B /* QUIC.app */,
+				9F8B5AE4292E576E0032273B /* QUIC App.app */,
 				9F8B5AF5292E576F0032273B /* QUICTests.xctest */,
 				9F8B5AFF292E576F0032273B /* QUICUITests.xctest */,
 			);
@@ -132,9 +132,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		9F8B5AE3292E576E0032273B /* QUIC */ = {
+		9F8B5AE3292E576E0032273B /* QUIC App */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 9F8B5B09292E576F0032273B /* Build configuration list for PBXNativeTarget "QUIC" */;
+			buildConfigurationList = 9F8B5B09292E576F0032273B /* Build configuration list for PBXNativeTarget "QUIC App" */;
 			buildPhases = (
 				9F8B5AE0292E576E0032273B /* Sources */,
 				9F8B5AE1292E576E0032273B /* Frameworks */,
@@ -144,9 +144,9 @@
 			);
 			dependencies = (
 			);
-			name = QUIC;
+			name = "QUIC App";
 			productName = QUIC;
-			productReference = 9F8B5AE4292E576E0032273B /* QUIC.app */;
+			productReference = 9F8B5AE4292E576E0032273B /* QUIC App.app */;
 			productType = "com.apple.product-type.application";
 		};
 		9F8B5AF4292E576F0032273B /* QUICTests */ = {
@@ -221,7 +221,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				9F8B5AE3292E576E0032273B /* QUIC */,
+				9F8B5AE3292E576E0032273B /* QUIC App */,
 				9F8B5AF4292E576F0032273B /* QUICTests */,
 				9F8B5AFE292E576F0032273B /* QUICUITests */,
 			);
@@ -286,12 +286,12 @@
 /* Begin PBXTargetDependency section */
 		9F8B5AF7292E576F0032273B /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 9F8B5AE3292E576E0032273B /* QUIC */;
+			target = 9F8B5AE3292E576E0032273B /* QUIC App */;
 			targetProxy = 9F8B5AF6292E576F0032273B /* PBXContainerItemProxy */;
 		};
 		9F8B5B01292E576F0032273B /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 9F8B5AE3292E576E0032273B /* QUIC */;
+			target = 9F8B5AE3292E576E0032273B /* QUIC App */;
 			targetProxy = 9F8B5B00292E576F0032273B /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -419,6 +419,7 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.developer-tools";
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
@@ -457,6 +458,7 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.developer-tools";
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
@@ -584,7 +586,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		9F8B5B09292E576F0032273B /* Build configuration list for PBXNativeTarget "QUIC" */ = {
+		9F8B5B09292E576F0032273B /* Build configuration list for PBXNativeTarget "QUIC App" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				9F8B5B0A292E576F0032273B /* Debug */,
